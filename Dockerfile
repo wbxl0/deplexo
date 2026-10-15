@@ -13,7 +13,7 @@ RUN apt-get update \
 
 # 无第三方依赖，因此不再需要 pip 安装步骤
 
-COPY app.py index.html ./
+COPY app.py ./
 
 EXPOSE 3000
 
